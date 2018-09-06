@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+    border: 1px solid blue;
+}
+.flex-item {
+    background-color: tomato;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    /* line-height: 20px; */
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
