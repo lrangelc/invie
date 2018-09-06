@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700');
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background: yellow; */
+	font-family: 'Allerta', sans-serif;
+}
+
+header {
+	background: blueviolet;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	align-items: center;
+}
+
+header img {
+	padding-left: 10px;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav li:after {
+	content: "|";
+	color:white;
+}
+
+nav li:last-child::after{
+	display: none;
+}
+
+nav a {
+	color:white;
+	padding: 0 10px;
+}
+
+article {
+	width: 300px;
+	/* padding-top: 30px;	 */
+}
+
+article img {
+	width: 100%;
+	cursor: pointer;
+}
+
+article h2 {
+	font-weight: 400;
+	font-size: 22px;
+	color: black;
+	margin: 10px 0 24px 0;
+	cursor: pointer;
+}
+
+.contenedor {
+    width: 60%;
+    /* background: green; */
+    margin: 0 auto;
+}
+
+.noticias {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.autorb {
+	display: flex;	
+	justify-content: space-between;
+	border-top: 1px solid black;
+}
+
+.autorb h4 {
+	font-size: 14px;
+	margin: 10px 0 0 0;
+}
+
+.footer {
+	/* background: red; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.blog {
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+	background: gray;
+	margin-top: 0;
+	padding: 0;
+}
+
+.portada {
+	/* border: 5px solid red; */
+	width: 100%;
+}
+
+.portada .description {
+	background: rgba(255, 255, 255, .5);
+	position: absolute;
+	bottom: 0;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	width: 40%;
+	padding: 10px;
+}
+
+.busqueda {
+	/* background: black; */
+	display: flex;
+	/* position: absolute; */
+	height: 36px;
+	justify-content: flex-end;
+}
+
+.botonbusqueda {
+	background-color: #333333;
+	padding: 10px;
+	border-radius: 6px;
+}
