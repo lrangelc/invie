@@ -3,6 +3,7 @@ html, body {
 }
 body {
     margin: 0;
+    background-color: #A8DADC;
 }
 .flex-container {
     height: 100%;
